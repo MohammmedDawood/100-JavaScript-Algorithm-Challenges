@@ -1,4 +1,4 @@
-// get the median of the sorted array
+// get the median of the sorted array.
 
 function absoluteValuesSumMinimization(a: number[]): number {
   const isEven = a.length % 2 === 0;
