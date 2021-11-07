@@ -1,4 +1,4 @@
-function arrayConversion(inputArray: Number[], operation: string): Number[] {
+function arrayConversion(inputArray, operation) {
   if (inputArray.length === 1) {
     return inputArray;
   } else {
@@ -17,4 +17,4 @@ function arrayConversion(inputArray: Number[], operation: string): Number[] {
   }
 }
 
-console.log(arrayConversion([1, 2, 3, 4, 5, 6, 7, 8]));
+console.log(arrayConversion([1, 2, 3, 4, 5, 6, 7, 8], "sum"));
