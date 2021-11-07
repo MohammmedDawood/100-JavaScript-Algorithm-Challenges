@@ -1,7 +1,7 @@
+##### Algorithm Challenge Available At [CODESIGNAL](https://app.codesignal.com/arcade/code-arcade/sorting-outpost/QQB7f8ouAqY6jf7xi)
 
-
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/code-arcade/sorting-outpost/QQB7f8ouAqY6jf7xi)
 ---
+
 Given an array of strings, sort them in the order of increasing lengths. If two strings have the same length, their relative order must be the same as in the initial array.
 
 **Example**
@@ -9,21 +9,22 @@ Given an array of strings, sort them in the order of increasing lengths. If two 
 For
 
 inputArray = ["abc",
-              "",
-              "aaa",
-              "a",
-              "zz"]
+"",
+"aaa",
+"a",
+"zz"]
 
 the output should be
 
 sortByLength(inputArray) = ["",
-                            "a",
-                            "zz",
-                            "abc",
-                            "aaa"]
+"a",
+"zz",
+"abc",
+"aaa"]
 
 **Hints**
--   sort()
+
+- sort()
 
 **Input/Output**
 
@@ -32,7 +33,7 @@ sortByLength(inputArray) = ["",
 
 A non-empty array of strings.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 3 ≤ inputArray.length ≤ 10,
 0 ≤ inputArray[i].length ≤ 10.

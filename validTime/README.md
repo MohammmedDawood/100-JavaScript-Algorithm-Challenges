@@ -1,22 +1,24 @@
+##### Algorithm Challenge Available At [CODESIGNAL](https://app.codesignal.com/arcade/code-arcade/time-river/ywMyCTspqGXPWRZx5)
 
-
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/code-arcade/time-river/ywMyCTspqGXPWRZx5)
 ---
+
 Check if the given string is a correct time representation of the 24-hour clock.
 
 **Example**
--   For time = "13:58", the output should be
-validTime(time) = true;
 
--   For time = "25:51", the output should be
-validTime(time) = false;
+- For time = "13:58", the output should be
+  validTime(time) = true;
 
--   For time = "02:76", the output should be
-validTime(time) = false.
+- For time = "25:51", the output should be
+  validTime(time) = false;
+
+- For time = "02:76", the output should be
+  validTime(time) = false.
 
 **Hints**
--   parseInt()
--   split()
+
+- parseInt()
+- split()
 
 **Input/Output**
 
@@ -25,7 +27,6 @@ validTime(time) = false.
 
 A string representing time in HH:MM format. It is guaranteed that the first two characters, as well as the last two characters, are digits.
 
--   **[output] boolean**
+- **[output] boolean**
 
 true if the given representation is correct, false otherwise.
-

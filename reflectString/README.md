@@ -1,6 +1,5 @@
+##### Algorithm Challenge Available At [CODESIGNAL](https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/8nAgfjhDvKCpxwGWF)
 
-
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/code-arcade/lab-of-transformations/8nAgfjhDvKCpxwGWF)
 ---
 
 Define an alphabet reflection as follows: a turns into z, b turns into y, c turns into x, ..., n turns into m, m turns into n, ..., z turns into a.
@@ -15,7 +14,8 @@ For inputString = "name", the output should be
 reflectString(inputString) = "mznv".
 
 **Hints**
--   split()
+
+- split()
 
 **Input/Output**
 
@@ -24,7 +24,7 @@ reflectString(inputString) = "mznv".
 
 A string of lowercase characters.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 3 ≤ inputString.length ≤ 10.
 

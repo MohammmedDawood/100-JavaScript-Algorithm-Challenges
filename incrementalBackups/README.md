@@ -1,7 +1,7 @@
+##### Algorithm Challenge Available At [CODESIGNAL](https://app.codesignal.com/arcade/intro/level-5/XC9Q2DhRRKQrfLhb5)
 
-
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/intro/level-5/XC9Q2DhRRKQrfLhb5)
 ---
+
 One of the easiest ways to back up files is with an incremental backup. This method only backs up files that have changed since the last backup.
 
 You are given a list of changes that were made to the files in your database, where for each valid i, changes[i][0] is the timestamp of the time the change was made, and changes[i][1] is the file id.
@@ -33,9 +33,10 @@ File with id = 6 was changed at 461620205, so it can be ignored.
 <img src='https://codefightsuserpics.s3.amazonaws.com/tasks/incrementalBackups/img/example.png?_tm=1490626049337'>
 
 **Hints**
--   includes()
--   push()
--   sort()
+
+- includes()
+- push()
+- sort()
 
 **Input/Output**
 
@@ -44,7 +45,7 @@ File with id = 6 was changed at 461620205, so it can be ignored.
 
 A non-negative integer, the timestamp of the previous backup.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 4 · 108 ≤ lastBackupTime < 5 · 108
 
@@ -53,11 +54,11 @@ A non-negative integer, the timestamp of the previous backup.
 Array of changes sorted lexicographically, where each change is given in the format as described above.
 If for some i changes[i][0] = lastBackupTime, assume that the ith file was successfully backed up during the last backup.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 0 ≤ changes.length ≤ 100,
 0 ≤ changes[i][0] ≤ 5 · 108,
 0 ≤ changes[i][1] ≤ 100
 
--   **[output] array.integer**
-Array of ids of the changes that should be backed up next time, sorted in ascending order.
+- **[output] array.integer**
+  Array of ids of the changes that should be backed up next time, sorted in ascending order.
