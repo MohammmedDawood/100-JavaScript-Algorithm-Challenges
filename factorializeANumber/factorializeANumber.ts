@@ -1,5 +1,9 @@
 function factorializeANumber(num: number): number {
-
+  let result: number = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result;
 }
 
 console.log(factorializeANumber(5));
